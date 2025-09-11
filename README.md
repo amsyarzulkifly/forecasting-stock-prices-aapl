@@ -54,14 +54,14 @@ The forecasting model is implemented using **TensorFlow/Keras** with the followi
 
 ### 📈 60-day Window  
 <div align="left">
-  <img width="800" height="450" alt="Image" src="https://github.com/user-attachments/assets/f41981fe-42bc-4074-8ee1-c55f5219a15f" />
+  <img src="https://github.com/amsyarzulkifly/forecasting-stock-prices-aapl/raw/main/attachment/aapl_lstm_60d.png" alt="AAPL LSTM 60d" width="800" height="450"/>
   <p><em>AAPL Log Price: One-Step vs Multi-Step Forecast (60-day sliding window).</em></p>
 </div>  
 
 ### 📈 365-day Window  
 - **One-Step (365d)**  
 <div align="left">
-  <img width="800" height="450" alt="Image" src="https://github.com/user-attachments/assets/f29c7bbd-830e-46a0-be93-a7eab7329aec" />
+  <img src="https://github.com/amsyarzulkifly/forecasting-stock-prices-aapl/raw/main/attachment/aapl_lstm_365d.png" alt="AAPL LSTM 365d" width="800" height="450"/>
   <p><em>AAPL Log Price: One-Step vs Multi-Step Forecast (365-day sliding window).</em></p>
 </div>  
 
@@ -84,7 +84,7 @@ The forecasting model is implemented using **TensorFlow/Keras** with the followi
 ## 🚀 Conclusion  
 - LSTM models can effectively forecast AAPL stock prices using sliding windows of historical data.
 - One-step forecasts remain highly accurate for short-term predictions, while multi-step forecasts capture longer horizons but introduce greater uncertainty.
-- A 60-day window often outperforms a 365-day window by focusing on recent trends and ignoring outdated data.
+- A 60-day window often slightly outperforms a 365-day window by focusing on recent trends and ignoring outdated data.
 - This project demonstrates the use of deep learning for financial time series forecasting.  
 
 ## 📌 Tools Used  
